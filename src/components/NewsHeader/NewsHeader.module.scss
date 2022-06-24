@@ -1,0 +1,31 @@
+@import '../../styles/common';
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    @include respond-above('md'){
+        padding: 30px 0px;
+        height: 260px;
+    }
+}
+
+
+.cat{
+    width: 100px;
+height: 27px;
+text-align: center;
+font: normal normal 600 18px/27px Poppins;
+letter-spacing: 0px;
+color: #5E6282;
+}
+.title{
+    width: 418px;
+height: 65px;
+text-align: center;
+font: normal normal bold 50px/67px Volkhov;
+letter-spacing: 0px;
+color: #14183E;
+text-transform: capitalize;
+}

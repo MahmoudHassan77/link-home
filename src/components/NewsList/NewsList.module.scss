@@ -1,0 +1,27 @@
+@import '../../styles/common';
+
+.cardList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.loadMoreBtn{
+    width: 266px;
+    height: 60px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    color: #fff;
+    background-color: #ff7c16;
+}
+
+.noNews{
+    margin-bottom: 20px;
+    color: #5E6282;
+    font: Sans;
+}
