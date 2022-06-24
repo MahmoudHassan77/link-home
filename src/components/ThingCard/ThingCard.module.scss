@@ -1,0 +1,23 @@
+@import '../../styles/common';
+
+.title{
+    position: absolute;
+    left: 3px;
+    bottom: 30px;
+    color: #fff;
+    font: normal normal 800 25px/38px Poppins;
+    @include respond-above('md'){
+        left: 10px;
+        height: 35px;
+        text-align: left;
+        }
+}
+
+.card{
+    min-width: 200px;
+    height: 200px;
+    @include respond-above('md'){
+       width: unset;
+       height: unset;
+        }
+}
