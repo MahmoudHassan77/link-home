@@ -48,7 +48,7 @@ function Footer() {
       <h6 className={style.discover}>Discover our app</h6>
       <div className={style.btns}>
             <button className={style.down}>
-            <img src={google} style={{fontSize:"1rem", marginRight:"8px"}} alt="google play" />
+            <img src={google} style={{fontSize:"1rem", marginRight:"8px"}} alt="google play"/>
             <div>
                 <div>GET IT ON</div>
                 <div>GOOGLE PLAY</div>

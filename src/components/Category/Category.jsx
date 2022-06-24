@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import style from "./Category.module.scss"
 
 const Category = ({cat, activeTab, handleClick}) => {

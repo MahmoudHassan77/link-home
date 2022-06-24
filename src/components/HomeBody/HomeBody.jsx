@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import BrushEffect from '../BrushEffect/BrushEffect'
 import style from './HomeBody.module.scss'
 import playDemo from "../../photos/Play Demo.svg"
 import findBtn from "../../photos/findBtn.svg"
@@ -20,10 +19,9 @@ function HomeBody() {
         setAnimate((prev)=>prev+1);
     }
   return (
-    //   <Container>
     <>
       {choosenObject&&Object.keys(choosenObject).length>0 &&
-      <div style={{position:"relative"}}>
+      <div>
        <AnimatedPart color={choosenObject?.colorCode??"#000"} />
         <div className={style.bodyContainer}>
         <section className={style.body}>
@@ -32,8 +30,8 @@ function HomeBody() {
             
             <p className={style.description}>{choosenObject?.brief??""}</p>
             <div>   
-                <a href='https://www.google.com' target="_blank"><img className={style.findBtn} alt='findBtn' src={findBtn} /></a>
-                <a href='https://www.google.com' target="_blank"><img  className={style.playDemo} alt='playDemo' src={playDemo} /></a>
+                <a href='https://www.google.com' target="_blank" rel='noreferrer'><img className={style.findBtn} alt='findBtn' src={findBtn} /></a>
+                <a href='https://www.google.com' target="_blank"  rel='noreferrer'><img  className={style.playDemo} alt='playDemo' src={playDemo} /></a>
             </div>    
             <section className={style.slider}>
                 <div className={`${style.sliderNav} ${choosen===0&& style.focus}`} onClick={()=>handleClick(0)}></div>
@@ -43,11 +41,10 @@ function HomeBody() {
                 <div className={`${style.sliderNav} ${choosen===2&& style.focus}`} style={{backgroundColor:"#A6E51C"}} onClick={()=>handleClick(2)}></div>
             </section>
         </section>
-        <img key={animate} src={`./banners/${choosen}.png`} className={style.banner} alt="person" />
+        <img key={animate} src={`./banners/${choosen}.png`} className={style.banner} alt="person"  />
         </div>
         </div>}
         </>
-    // </Container>
   )
 }
 

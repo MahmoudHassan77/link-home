@@ -1,6 +1,5 @@
-import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
- import Navbar from 'react-bootstrap/Navbar';
+import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from "../../photos/logo.png"
 import Button from 'react-bootstrap/Button';
@@ -9,9 +8,8 @@ import style from "./Header.module.scss"
 
 function Header() {
   return (
-    // <Container>
     <Navbar bg="#fff" expand="lg">
-        <Navbar.Brand href="#home" ><img className={style.logo} alt='linkDev logo' id='logo' src={logo} /></Navbar.Brand>
+        <Navbar.Brand href="#home" ><img className={style.logo} alt='linkDev logo' id='logoImg' src={logo} /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className={style.nav}>
           <Nav>
@@ -31,7 +29,6 @@ function Header() {
           </Nav>
         </Navbar.Collapse>
     </Navbar>
-    // </Container>
   );
 }
 

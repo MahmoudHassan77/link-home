@@ -5,9 +5,11 @@ import HomeBody from '../../components/HomeBody/HomeBody'
 import style from './Home.module.scss'
 function Home() {
   return (
-      <Container className="mb-2">
+      <Container>
+        <div className={style.homeContainer}>
         <Header />
         <HomeBody />
+        </div>
       </Container>
   )
 }

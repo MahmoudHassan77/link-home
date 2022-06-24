@@ -1,6 +1,5 @@
-import React, { useContext, useEffect, useState } from 'react'
+import React, { useContext} from 'react'
 import { NewsContext } from '../../context/NewsContext';
-import useFetch from '../../hooks/useFetch'
 import Category from '../Category/Category';
 import style from "./NewsCategories.module.scss"
 function NewsCategories() {

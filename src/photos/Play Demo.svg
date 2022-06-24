@@ -1,20 +1,2 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="272" height="232" viewBox="0 0 272 232">
-  <defs>
-    <filter id="Ellipse_8" x="0" y="0" width="232" height="232" filterUnits="userSpaceOnUse">
-      <feOffset dy="15" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="30" result="blur"/>
-      <feFlood flood-color="#df6951" flood-opacity="0.302"/>
-      <feComposite operator="in" in2="blur"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-  </defs>
-  <g id="Play_Demo" data-name="Play Demo" transform="translate(90 75)">
-    <text id="Play_Demo-2" data-name="Play Demo" transform="translate(73 12.5)" fill="#686d77" font-size="17" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="18">Play Demo</tspan></text>
-    <g id="Play_button" data-name="Play button">
-      <g transform="matrix(1, 0, 0, 1, -90, -75)" filter="url(#Ellipse_8)">
-        <circle id="Ellipse_8-2" data-name="Ellipse 8" cx="26" cy="26" r="26" transform="translate(90 75)" fill="#e72228"/>
-      </g>
-      <path id="Polygon_1" data-name="Polygon 1" d="M7.5,0,15,15H0Z" transform="translate(34 20) rotate(90)" fill="#fff"/>
-    </g>
-  </g>
-</svg>
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 272 232" width="272" height="232"><style>tspan{white-space:pre}.a{font-size: 17px;fill: #686d77;font-weight: 500;font-family: "Poppins-Medium", "Poppins"}.b{fill:#e72228}.c{fill:#fff}</style><text style="transform:matrix(1,0,0,1,163,105.5)" ><tspan x="0" y="0" class="a">Play Demo
+</tspan></text><path class="b" d="m116 127c-14.4 0-26-11.6-26-26 0-14.4 11.6-26 26-26 14.4 0 26 11.6 26 26 0 14.4-11.6 26-26 26z"/><path class="c" d="m124 102.5l-15 7.5v-15z"/></svg>
