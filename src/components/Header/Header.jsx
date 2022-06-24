@@ -9,13 +9,13 @@ import style from "./Header.module.scss"
 function Header() {
   return (
     <Navbar bg="#fff" expand="lg">
-        <Navbar.Brand href="#home" ><img className={style.logo} alt='linkDev logo' id='logoImg' src={logo} /></Navbar.Brand>
+        <Navbar.Brand href="#homePage" ><img className={style.logo} alt='linkDev logo' id='logoImg' src={logo} /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className={style.nav}>
           <Nav>
-            <Nav.Link href="#home" className={style.link}>Home</Nav.Link>
-            <Nav.Link href="#about" className={style.link}>About us</Nav.Link>
-            <Nav.Link href="#News" className={style.link}>News</Nav.Link>
+            <Nav.Link href="#homePage" className={style.link}>Home</Nav.Link>
+            <Nav.Link href="#aboutPage" className={style.link}>About us</Nav.Link>
+            <Nav.Link href="#NewsPage" className={style.link}>News</Nav.Link>
             <Nav.Link href="#contact" className={style.link}>Contact us</Nav.Link>
           </Nav>
           <Nav className='d-flex align-items-center'>

@@ -4,7 +4,7 @@ import style from "./ThingsWeDo.module.scss"
 
 function ThingsWeDo() {
   return (
-      <div className={style.thingsContainer}>
+      <div className={style.thingsContainer} id="aboutPage">
           <section className={style.leftSection}>
             <ThingsList />
           </section>

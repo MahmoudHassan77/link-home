@@ -17,7 +17,7 @@ function News() {
     setActiveTab(id)
 }
   return (
-    <Container>
+    <Container id='NewsPage'>
       <NewsContext.Provider value={{activeTab, handleClick, categories}}>
         <NewsHeader />
         <NewsList />

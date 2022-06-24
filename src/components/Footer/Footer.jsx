@@ -9,7 +9,7 @@ import style from "./Footer.module.scss"
 function Footer() {
   return (
    <Container>
-    <footer className="container py-5">
+    <footer className="container py-5" id='contact'>
   <div className="row">
     <div className={`col-12 col-md ${style.logoSec}`}>
       <img className={style.logo} alt='linkDev logo' id='logo' src={logo} />
