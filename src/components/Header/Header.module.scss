@@ -1,0 +1,21 @@
+@import '../../styles/common';
+
+.logo{
+    width: 6.5rem;
+    height: 2.5rem;
+}
+
+.nav{
+    @include respond-above('md'){
+        padding-left:15rem;
+        display: flex;
+        justify-content: space-around;
+      }
+}
+
+.link{
+    @include respond-above('lg'){
+        margin: 0px 20px;
+      }
+}
+
